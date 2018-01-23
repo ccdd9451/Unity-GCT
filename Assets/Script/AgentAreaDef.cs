@@ -72,7 +72,7 @@ public class AgentAreaDef : MonoBehaviour {
         agent.transform.position = location;
         agent.transform.parent = transform;
 
-        NavMeshAgent ag = agent.GetComponent<NavMeshAgent>();
+        NavMeshAgent ag = agent.AddComponent<NavMeshAgent>();
         ag.SetDestination(destination);
     }
 }

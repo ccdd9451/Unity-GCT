@@ -220,7 +220,7 @@ public class XMLParser : MonoBehaviour
                         }
                         agentAreaDef.agentArea.Add(new float[] {xmin, xmax, zmin, zmax});
                         agentAreaDef.weight.Add(numAgents);
-                        agentAreaDef.agentAmount = 100;
+                        agentAreaDef.agentAmount = 300;
                         break;
                     }
             }
