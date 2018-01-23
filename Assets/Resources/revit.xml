@@ -8,8 +8,8 @@
     <version>1.0</version>
     <name>oncoming-1</name>
     <worldBounds>
-      <xmin>-300</xmin>
-      <xmax>300</xmax>
+      <xmin>-350</xmin>
+      <xmax>350</xmax>
       <ymin>0</ymin>
       <ymax>0</ymax>
       <zmin>-200</zmin>
