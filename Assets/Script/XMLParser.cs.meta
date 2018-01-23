@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c23abe5db977a4f94a9d7c7a061e8e1e
+timeCreated: 1515645336
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cube: {fileID: 1167247736087798, guid: bec631fa5138f444da3b675473997237, type: 2}
+  - cylinder: {fileID: 1640512551125074, guid: 8ce71704074ba43f7954e3b2b79b4e58, type: 2}
+  - plane: {fileID: 1100027223765834, guid: 479273f82324442229884f8ca50bf1e7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
