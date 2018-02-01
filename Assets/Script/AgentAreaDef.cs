@@ -7,7 +7,6 @@ using UnityEngine.AI;
 
 public class AgentAreaDef : MonoBehaviour {
 
-
     public IList<float[]> agentArea = new List<float[]>();
     public IList<int> bornWeights = new List<int>();
     public IList<int> targetWeights = new List<int>();
@@ -16,12 +15,20 @@ public class AgentAreaDef : MonoBehaviour {
     IList<float> pBorn, pTarget;
     enum AC {Xmin, Xmax, Zmin, Zmax}; //Area Coordination Index
 
-    GameObject sphere;
-
+    public GameObject[] agentPrefabs;
 
     void Start() {
-        sphere = Resources.Load("Agent") as GameObject;
-        float s;
+
+        int agentCount = 9;
+        agentPrefabs = new GameObject[agentCount];
+        for (int i = 0; i < agentCount; i++) {
+            agentPrefabs[i] = Resources.Load("Agents/Agent" + (i + 1).ToString()) as GameObject;
+        }
+
+        float s = 0;
+
+        pArea = weight.Select<int, float>(w => s += w).ToList();
+        pArea = pArea.Select(w => w / s).ToList();
 
         s = 0;
         pBorn = bornWeights.Select<int, float>(w => s += w).ToList();
@@ -89,7 +96,7 @@ public class AgentAreaDef : MonoBehaviour {
 
     void PlaceAgentOn(Vector3 location, Vector3 destination)
     {
-        GameObject agent = Instantiate(sphere) as GameObject;
+        GameObject agent = Instantiate(agentPrefabs[UnityEngine.Random.Range(0, agentPrefabs.Length)]) as GameObject;
         agent.name = "Agent";
         agent.transform.position = location;
         agent.transform.parent = transform;

@@ -170,6 +170,7 @@ public class XMLParser : MonoBehaviour
         }
         //NavMeshBuilder.BuildNavMesh();
     }
+
     [MenuItem("SteerSuite XML Parsing/Config Agents")]
     static void Parse()
     {
