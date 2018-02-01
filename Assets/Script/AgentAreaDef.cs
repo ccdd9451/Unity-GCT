@@ -20,12 +20,11 @@ public class AgentAreaDef : MonoBehaviour {
     void Start() {
 
         int agentCount = 9;
+        float s;
         agentPrefabs = new GameObject[agentCount];
         for (int i = 0; i < agentCount; i++) {
             agentPrefabs[i] = Resources.Load("Agents/Agent" + (i + 1).ToString()) as GameObject;
         }
-
-        float s;
 
         s = 0;
         pBorn = bornWeights.Select<int, float>(w => s += w).ToList();
@@ -34,11 +33,6 @@ public class AgentAreaDef : MonoBehaviour {
         s = 0;
         pTarget = targetWeights.Select<int, float>(w => s += w).ToList();
         pTarget = pTarget.Select(w => w / s).ToList();
-
-        foreach (float w in pBorn)
-        {
-            Debug.Log(w.ToString());
-        }
 
         for (int i = 0; i < agentAmount; i++)
         {
