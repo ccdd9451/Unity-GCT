@@ -25,10 +25,7 @@ public class AgentAreaDef : MonoBehaviour {
             agentPrefabs[i] = Resources.Load("Agents/Agent" + (i + 1).ToString()) as GameObject;
         }
 
-        float s = 0;
-
-        pArea = weight.Select<int, float>(w => s += w).ToList();
-        pArea = pArea.Select(w => w / s).ToList();
+        float s;
 
         s = 0;
         pBorn = bornWeights.Select<int, float>(w => s += w).ToList();
