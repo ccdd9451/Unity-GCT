@@ -190,14 +190,15 @@ public class XMLParser : MonoBehaviour
             {
                 case "agentRegion":
                     {
-                        int numAgents = 1;
+                        int bornWeight = 1, targetWeight = 1;
                         float xmin = 0.0f, xmax = 0.0f, ymin = 0.0f, ymax = 0.0f, zmin = 0.0f, zmax = 0.0f;
                         float x = 0.0f, y = 0.0f, z = 0.0f;
                         while (reader.Read() && reader.Name != "agentRegion")
                         {
                             switch (reader.Name)
                             {
-                                case "numAgents": numAgents = reader.ReadElementContentAsInt(); break;
+                                case "w_born": bornWeight = reader.ReadElementContentAsInt(); break;
+                                case "w_target": targetWeight = reader.ReadElementContentAsInt(); break;
                                 case "xmin": xmin = reader.ReadElementContentAsFloat(); break;
                                 case "xmax": xmax = reader.ReadElementContentAsFloat(); break;
                                 case "ymin": ymin = reader.ReadElementContentAsFloat(); break;
@@ -219,12 +220,12 @@ public class XMLParser : MonoBehaviour
 
                         }
                         agentAreaDef.agentArea.Add(new float[] {xmin, xmax, zmin, zmax});
-                        agentAreaDef.weight.Add(numAgents);
+                        agentAreaDef.bornWeights.Add(bornWeight);
+                        agentAreaDef.targetWeights.Add(targetWeight);
                         agentAreaDef.agentAmount = 300;
                         break;
                     }
             }
         }
-        Debug.Log(agentAreaDef.weight.Count.ToString());
     }
 }

@@ -9986,6 +9986,9 @@
 
 <agentRegion>
  <numAgents>2</numAgents>
+ <areaIndex>0</areaIndex>
+ <w_born>2</w_born>
+ <w_target>2</w_target>
  <regionBounds>
   <xmin>74.1433742227155</xmin> <xmax>97.8245435407192</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10004,9 +10007,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>1</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-13.366494953628</xmin> <xmax>41.2453095189511</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10025,9 +10030,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>2</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>19.5125811499257</xmin> <xmax>53.0098104010829</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10046,9 +10053,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>3</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-28.0307242843458</xmin> <xmax>7.3930168705394</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10067,9 +10076,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>4</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-129.907793198163</xmin> <xmax>-41.4698265983274</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10088,9 +10099,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>5</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-129.57897812552</xmin> <xmax>-41.3730812048706</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10109,9 +10122,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>6</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-124.526097414202</xmin> <xmax>-52.2615328557306</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10130,9 +10145,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>7</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>49.8377714498697</xmin> <xmax>75.9361353665295</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10151,9 +10168,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>8</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-1.84194073769547</xmin> <xmax>24.2564231789643</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10172,9 +10191,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>9</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-65.9596430715002</xmin> <xmax>-39.8612791548404</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10193,9 +10214,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>10</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-132.600031522115</xmin> <xmax>-106.501667605455</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10214,9 +10237,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>11</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-161.767521284165</xmin> <xmax>-135.669157367505</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10235,9 +10260,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>12</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-162.882260363989</xmin> <xmax>-136.78389644733</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10256,9 +10283,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>13</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-158.617319841237</xmin> <xmax>-132.518955924577</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10277,9 +10306,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>14</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-126.556067894913</xmin> <xmax>-100.457703978253</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10298,9 +10329,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>15</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>108.180612381207</xmin> <xmax>134.278976297866</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10319,9 +10352,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>16</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>109.718572714983</xmin> <xmax>135.816936631643</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10340,9 +10375,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>3</numAgents>
+  <areaIndex>17</areaIndex>
+  <w_born>3</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>21.0014664940711</xmin> <xmax>100.579517567252</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10361,9 +10398,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>3</numAgents>
+  <areaIndex>18</areaIndex>
+  <w_born>3</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-93.6299643755326</xmin> <xmax>-5.25014225410848</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10382,9 +10421,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>1</numAgents>
+  <areaIndex>19</areaIndex>
+  <w_born>2</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-15.1168220347235</xmin> <xmax>42.7900659389749</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10403,9 +10444,11 @@
   </seekStaticTarget>
  </goalSequence>
 </agentRegion>
-
 <agentRegion>
  <numAgents>2</numAgents>
+  <areaIndex>20</areaIndex>
+  <w_born>0</w_born>
+  <w_target>2</w_target>
  <regionBounds>
   <xmin>-5.09689742258867</xmin> <xmax>21.0014664940711</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
