@@ -11,7 +11,7 @@
       <xmin>-350</xmin>
       <xmax>350</xmax>
       <ymin>0</ymin>
-      <ymax>0</ymax>
+      <ymax>1</ymax>
       <zmin>-200</zmin>
       <zmax>150</zmax>
     </worldBounds>
