@@ -10,7 +10,7 @@
     <worldBounds>
       <xmin>-350</xmin>
       <xmax>350</xmax>
-      <ymin>0</ymin>
+      <ymin>-1.1</ymin>
       <ymax>1</ymax>
       <zmin>-200</zmin>
       <zmax>150</zmax>
