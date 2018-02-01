@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class AnimationScript : MonoBehaviour {
 
 
-    public float animSpeed = 1.5f;
+    public float animSpeed = 1.0f;
     public float sensity = 1.5f;
 
     Vector3 oldLoc;

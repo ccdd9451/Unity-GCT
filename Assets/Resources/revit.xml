@@ -10241,7 +10241,7 @@
  <numAgents>2</numAgents>
   <areaIndex>11</areaIndex>
   <w_born>0</w_born>
-  <w_target>2</w_target>
+  <w_target>1</w_target>
  <regionBounds>
   <xmin>-161.767521284165</xmin> <xmax>-135.669157367505</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10264,7 +10264,7 @@
  <numAgents>2</numAgents>
   <areaIndex>12</areaIndex>
   <w_born>0</w_born>
-  <w_target>2</w_target>
+  <w_target>1</w_target>
  <regionBounds>
   <xmin>-162.882260363989</xmin> <xmax>-136.78389644733</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10287,7 +10287,7 @@
  <numAgents>2</numAgents>
   <areaIndex>13</areaIndex>
   <w_born>0</w_born>
-  <w_target>2</w_target>
+  <w_target>1</w_target>
  <regionBounds>
   <xmin>-158.617319841237</xmin> <xmax>-132.518955924577</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10333,7 +10333,7 @@
  <numAgents>2</numAgents>
   <areaIndex>15</areaIndex>
   <w_born>0</w_born>
-  <w_target>2</w_target>
+  <w_target>1</w_target>
  <regionBounds>
   <xmin>108.180612381207</xmin> <xmax>134.278976297866</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10356,7 +10356,7 @@
  <numAgents>2</numAgents>
   <areaIndex>16</areaIndex>
   <w_born>0</w_born>
-  <w_target>2</w_target>
+  <w_target>1</w_target>
  <regionBounds>
   <xmin>109.718572714983</xmin> <xmax>135.816936631643</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10378,8 +10378,8 @@
 <agentRegion>
  <numAgents>3</numAgents>
   <areaIndex>17</areaIndex>
-  <w_born>3</w_born>
-  <w_target>2</w_target>
+  <w_born>1</w_born>
+  <w_target>3</w_target>
  <regionBounds>
   <xmin>21.0014664940711</xmin> <xmax>100.579517567252</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10401,8 +10401,8 @@
 <agentRegion>
  <numAgents>3</numAgents>
   <areaIndex>18</areaIndex>
-  <w_born>3</w_born>
-  <w_target>2</w_target>
+  <w_born>1</w_born>
+  <w_target>3</w_target>
  <regionBounds>
   <xmin>-93.6299643755326</xmin> <xmax>-5.25014225410848</xmax>
   <ymin>0</ymin> <ymax>0</ymax>
@@ -10447,7 +10447,7 @@
 <agentRegion>
  <numAgents>2</numAgents>
   <areaIndex>20</areaIndex>
-  <w_born>0</w_born>
+  <w_born>2</w_born>
   <w_target>2</w_target>
  <regionBounds>
   <xmin>-5.09689742258867</xmin> <xmax>21.0014664940711</xmax>
