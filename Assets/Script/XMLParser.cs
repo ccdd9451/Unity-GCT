@@ -172,7 +172,7 @@ public class XMLParser : MonoBehaviour
     }
 
     [MenuItem("SteerSuite XML Parsing/Config Agents")]
-    static void Parse()
+    public static void Parse()
     {
         string XmlFilePath = "Assets/Resources/revit.xml";
 
@@ -229,4 +229,5 @@ public class XMLParser : MonoBehaviour
             }
         }
     }
+
 }
