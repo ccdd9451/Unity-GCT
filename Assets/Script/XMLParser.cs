@@ -5,12 +5,13 @@ using System.Xml;
 using System.IO;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEditor;
+//using UnityEditor;
 
 public class XMLParser : MonoBehaviour
 {
 
-    [MenuItem("SteerSuite XML Parsing/Geometry Build")]
+
+/*    [MenuItem("SteerSuite XML Parsing/Geometry Build")]
     static void Build()
     {
 
@@ -171,7 +172,7 @@ public class XMLParser : MonoBehaviour
         //NavMeshBuilder.BuildNavMesh();
     }
 
-    [MenuItem("SteerSuite XML Parsing/Config Agents")]
+    [MenuItem("SteerSuite XML Parsing/Config Agents")]*/
     public static void Parse()
     {
         string XmlFilePath = "Assets/Resources/revit.xml";
